@@ -1,0 +1,27 @@
+@media   only  screen and (max-width:768px) {
+    .navbar__nav  .fa-bars{
+        display: inline;
+    }
+    .navbar__nav a{
+     display: none;
+    }
+    .header{
+        height: 100%;
+     
+    }
+    .banner{
+    grid-template-columns: 1fr;
+    }
+    .banner h1{
+        font-size:2rem;
+  
+    }
+    .banner,.about__content,.testimonial__content ,.second__content ,.contact__content{
+        grid-template-columns: 1fr;
+    } 
+    .footer__content{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    
+}
